@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulir Klinik Kesehatan </title>
+    </head>
+    <body>
+        <h1> Formulir Pendaftaran Pasien </h1>
+        <form action="#" method="post">
+            <label> Nama Lengkap Pasien : </label><br>
+            <input type="text" name="nama" required><br><br>
+
+            <label> NIK : </label><br>
+            <input type="text" name="nik"><br><br>
+
+            <label> Tempat, Tanggal Lahir : </label><br>
+            <input type="text" name="ttl" required><br><br>
+
+            <label> Jenis Kelamin : </label><br>
+            <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jk" value="Perempuan"> Perempuan<br><br>
+
+            <label> Alamat Lengkap : </label><br>
+            <textarea name="alamat" rows="3"></textarea><br><br>
+
+            <label> No. Telepon : </label><br>
+            <input type="text" name="tlp"><br><br>
+
+            <label> Golongan Darah : </label>
+            <select name="goldarah">
+                <option value="A"> A </option>
+                <option value="B"> B </option>
+                <option value="AB"> AB </option>
+                <option value="O"> O </option>
+            </select><br><br>
+
+            <lebel> Status Perkawinan : </lebel><br>
+            <input type="radio" name="sp" value="Kawin"> Kawin
+            <input type="radio" name="sp" value="Belum Kawin"> Belum Kawin<br><br>
+
+            <label> Pendidikan Terakhir : </label>
+            <select name="goldarah">
+                <option value="SD"> SD </option>
+                <option value="SMP"> SMP </option>
+                <option value="SMA"> SMA </option>
+                <option value="SMK"> SMK </option>
+                <option value="D3"> D3 </option>
+                <option value="S1"> S1 </option>
+                <option value="S2"> S2 </option>
+                <option value="S3"> S3 </option>
+            </select><br><br>
+
+            <label> Nama Wali Pasien : </label><br>
+            <input type="text" name="namawali" required><br><br>
+
+            <label> No. Telepon Wali : </label><br>
+            <input type="text" name="tlpwali"><br><br>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </body>
+</html>

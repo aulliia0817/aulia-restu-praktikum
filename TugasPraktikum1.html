@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> Tugas Praktikum Konversi Nilai </title>
+    </head>
+    <body>
+        <script lang="javascript">
+            var nilai = prompt("Nilai : ", 0);
+            var huruf = "";
+             if (nilai >=0 && nilai <= 40) {
+                huruf = "E";
+            } else if (nilai >= 41 && nilai <= 55) {
+                huruf = "D";
+            } else if (nilai >= 56 && nilai <= 60) {
+                huruf = "C";
+            } else if (nilai >= 61 && nilai <= 65) {
+                huruf = "BC";
+            } else if (nilai >= 66 && nilai <= 70) {
+                huruf = "B";
+            } else if (nilai >= 71 && nilai <= 80) {
+                huruf = "AB";
+            } else if (nilai >= 81 && nilai <= 100) {
+                huruf = "A";
+            } else {
+                huruf = "Nilai tidak valid";
+            }
+            document.write("Hasil konversi ke huruf: " + huruf);
+        </script>
+    </body>
+</html>
